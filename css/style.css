@@ -597,4 +597,12 @@ footer > .right > .social-icons a{
         padding-bottom:0.25rem;
         margin: 1.5rem 4rem;
     }
+
+    footer > .middle {
+        padding-top: 0;
+    }
+
+    footer > .middle {
+        padding-left: calc(40% - 8rem);
+    }
 }
