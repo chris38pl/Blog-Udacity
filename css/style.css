@@ -510,6 +510,23 @@ footer > .right > .social-icons a{
         padding-right: 1vw;
         padding-left: 0vw;
     }
+
+    .sidebar > .recent-posts > .recent-post-item {
+        grid-template-columns: 1fr 5fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+            "thumb content content content content content"
+            "thumb content content content content content";
+    }
+
+    .sidebar > h2,
+    .sidebar > .recent-posts > .recent-post-item > .recet-post-thumb{
+        padding-left: 2rem;
+    }
+
+    .sidebar > .recent-posts:last-child .recent-post-item{
+        border: none;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -546,6 +563,23 @@ footer > .right > .social-icons a{
         grid-gap: 3rem;
         padding-bottom: 1rem;
         padding-left: 2rem;
+    }
+
+    .card > .post-content > .title {
+        height: auto;
+    }
+
+    .card > .post-buttons > button {
+        width:27%;
+    }
+
+    .card > .post-buttons {
+        padding-left: 1rem;
+    }
+
+    .card > .post-content > p {
+        height: auto;
+        padding-bottom: 1rem;
     }
 
     footer {
