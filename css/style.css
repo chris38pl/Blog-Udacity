@@ -438,6 +438,25 @@ footer > .right > .social-icons a{
         height: 110px;
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .card > .post-content > p {
+        height: 100px;
+    }
+
+    .card > .post-content > .title {
+        height: 60px;
+    }
+
+    .card > .post-buttons > button {
+        width:27%;
+    }
+
+    .card > .post-buttons {
+        padding-left: 1rem;
+    }
+}
+
 @media screen and (max-width: 1000px) {
     .container {
         display: grid;
@@ -526,6 +545,16 @@ footer > .right > .social-icons a{
 
     .sidebar > .recent-posts:last-child .recent-post-item{
         border: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .card > .post-content > p {
+        height: 130px;
+    }
+
+    .card > .post-content > .title {
+        height: 80px;
     }
 }
 
