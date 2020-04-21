@@ -1,0 +1,120 @@
+/* FOOTER ELEMENTS */
+footer {
+    grid-area: footer;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-top: 3px solid #fa2964;
+    display: grid;
+    background-color: #fff;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "left middle right ";
+}
+
+footer > .left,
+footer > .middle,
+footer > .right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer > .middle {
+    padding-top: 1rem;
+}
+
+/* 1. Footer Left */
+footer > .left > p {
+    margin-top: 0;
+    padding-left: 1.5vw;
+    color: #878787;
+}
+
+footer > .left > p > a {
+    text-decoration: none;
+    color: #878787;
+    border-right: 1px solid #878787;
+    padding: 0 0.5rem;
+    vertical-align: middle;
+}
+
+footer > .left > p > a:first-child {
+    padding-left: 0;
+}
+
+footer > .left > p > a:last-child {  
+    border-right: none;
+}
+
+.copyright {
+    font-size: 0.7rem;
+}
+
+/* 2. Footer Middle */
+footer .middle i {
+    background-color: #fa2964;
+    color: #fff;
+	font-size: 20px;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 38px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+footer > .middle i.fa-envelope {
+	font-size: 17px;
+	line-height: 33px;
+}
+
+footer > .middle p {
+	display: inline-block;
+	color: #424242;
+    font-weight: 400;
+	vertical-align: middle;
+	margin: 0;
+}
+
+footer > .middle p span {
+	display: block;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 2;
+}
+
+footer > .middle p a {
+	color: #424242;
+	text-decoration: none;
+}
+
+
+/* 3. Footer Right */
+footer > .right {
+    margin-right: 1.25rem;
+}
+
+footer > .right > .about-head {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+footer > .right > .social-icons {
+	margin-top: 25px;
+}
+
+footer > .right > .social-icons a {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #fa2964;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+}

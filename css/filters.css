@@ -1,0 +1,40 @@
+/* FILTERS ELEMENTS */
+.main-filter {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    grid-area: main-filter!important;
+    margin: 2.5rem auto;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+
+.main-filter > span {
+    justify-content: center;
+    margin: 0;
+    margin-right: -4px;
+    margin-bottom: 1rem;
+    padding: 15px 10px;
+    cursor: pointer;
+    transition: .3s all ease-in-out;
+    padding: 5px 8px;
+}
+
+.main-filter > span > a:hover,
+.main-filter > .active > a{
+    background-color: #fa2964;
+    color: #fff;
+    transition: 0.3s all ease-in-out;
+    border: 1px solid #fa2964;
+    box-sizing: border-box;
+}
+
+.main-filter > span > a {
+    color: #fa2964;
+    text-decoration: none;
+    word-wrap: break-word;
+    border-radius: 30px;
+    border: 1px solid #ddd;
+    padding: 0.5rem 1.25rem !important;
+    font-size: 0.75rem;
+}
